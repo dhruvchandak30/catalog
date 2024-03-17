@@ -1,0 +1,1816 @@
+{
+  "DinnerSet": [
+    {
+      "title": "Etching Art Dinner Set",
+      "img": "",
+      "element": "Brass",
+      "id": "DinnerSet_0"
+    },
+    {
+      "title": "Etching Art Dinner Set",
+      "img": "",
+      "element": "Copper",
+      "id": "DinnerSet_1"
+    }
+  ],
+  "ThaliSet": [
+    {
+      "title": "Border Thali Set",
+      "img": "",
+      "element": "Brass",
+      "id": "ThaliSet_0"
+    },
+    {
+      "title": "Special Thali Set",
+      "img": "",
+      "element": "Brass",
+      "id": "ThaliSet_1"
+    },
+    {
+      "title": "Antique Thali Set.",
+      "img": "",
+      "element": "Brass",
+      "id": "ThaliSet_2"
+    },
+    {
+      "title": "Apple Thali Set",
+      "img": "",
+      "element": "Brass",
+      "id": "ThaliSet_3"
+    },
+    {
+      "title": "Apple Laser Thali Set",
+      "img": "",
+      "element": "Brass",
+      "id": "ThaliSet_4"
+    },
+    {
+      "title": "Signature Thali Set",
+      "img": "",
+      "element": "Brass",
+      "id": "ThaliSet_5"
+    },
+    {
+      "title": "Flora Thali Set",
+      "img": "",
+      "element": "Brass",
+      "id": "ThaliSet_6"
+    },
+    {
+      "title": "Bronge Magic Thali Set",
+      "img": "",
+      "element": "Bronge",
+      "id": "ThaliSet_7"
+    },
+    {
+      "title": "Hammered Thali Set",
+      "img": "",
+      "element": "Brass",
+      "id": "ThaliSet_8"
+    },
+    {
+      "title": "Laddu Gopal Bhog Set",
+      "img": "",
+      "element": "Brass",
+      "id": "ThaliSet_9"
+    },
+    {
+      "title": "Flower Thali Set",
+      "img": "",
+      "element": "Brass",
+      "id": "ThaliSet_10"
+    },
+    {
+      "title": "Laddu Gopal Bhog Set",
+      "img": "",
+      "element": "Brass/Laser",
+      "id": "ThaliSet_11"
+    },
+    {
+      "title": "Steel Copper Hammered Thali Set",
+      "img": "",
+      "element": "SteelCopper",
+      "id": "ThaliSet_12"
+    },
+    {
+      "title": "Steel Copper Curved Thali Set",
+      "img": "",
+      "element": "SteelCopper",
+      "id": "ThaliSet_13"
+    },
+    {
+      "title": "Pure Copper Hammered Thali Set",
+      "img": "",
+      "element": "PureCopper",
+      "id": "ThaliSet_14"
+    },
+    {
+      "title": "Begi China Plate Etching",
+      "img": "",
+      "element": "Brass",
+      "id": "ThaliSet_15"
+    },
+    {
+      "title": "Begi Khomcha",
+      "img": "",
+      "element": "Brass",
+      "id": "ThaliSet_16"
+    }
+  ],
+  "Plate": [
+    {
+      "title": "Apple Khomcha Etching",
+      "img": "",
+      "element": "Brass",
+      "id": "Plate_0"
+    },
+    {
+      "title": "Pan Thal Etching",
+      "img": "",
+      "element": "Brass",
+      "id": "Plate_1"
+    },
+    {
+      "title": "Pan Thal Embossed",
+      "img": "",
+      "element": "Brass",
+      "id": "Plate_2"
+    },
+    {
+      "title": "Apple Khomcha S.T.",
+      "img": "",
+      "element": "Brass",
+      "id": "Plate_3"
+    },
+    {
+      "title": "Apple Khomcha Hammered",
+      "img": "",
+      "element": "Brass",
+      "id": "Plate_4"
+    },
+    {
+      "title": "Flower Plate",
+      "img": "",
+      "element": "Brass",
+      "id": "Plate_5"
+    },
+    {
+      "title": "Flora Plate",
+      "img": "",
+      "element": "Brass",
+      "id": "Plate_6"
+    },
+    {
+      "title": "Flora Hammer Plate",
+      "img": "",
+      "element": "Brass",
+      "id": "Plate_7"
+    },
+    {
+      "title": "Border Plate",
+      "img": "",
+      "element": "Brass",
+      "id": "Plate_8"
+    },
+    {
+      "title": "Taat Plate",
+      "img": "",
+      "element": "Brass",
+      "id": "Plate_9"
+    },
+    {
+      "title": "Gulzar Plate",
+      "img": "",
+      "element": "Brass",
+      "id": "Plate_10"
+    },
+    {
+      "title": "Flora Plate",
+      "img": "",
+      "element": "Copper",
+      "id": "Plate_11"
+    },
+    {
+      "title": "Khomcha Hammered",
+      "img": "",
+      "element": "Copper",
+      "id": "Plate_12"
+    },
+    {
+      "title": "Oval Plate",
+      "img": "",
+      "element": "Copper",
+      "id": "Plate_13"
+    },
+    {
+      "title": "New Oval Plate",
+      "img": "",
+      "element": "Brass",
+      "id": "Plate_14"
+    }
+  ],
+  "Tray": [
+    {
+      "title": "Tray Border",
+      "img": "",
+      "element": "Brass",
+      "id": "Tray_0"
+    },
+    {
+      "title": "Tray Salai",
+      "img": "",
+      "element": "Brass",
+      "id": "Tray_1"
+    },
+    {
+      "title": "Oval Border Plate",
+      "img": "",
+      "element": "Brass",
+      "id": "Tray_2"
+    }
+  ],
+  "LemonSet": [
+    {
+      "title": "Flora Lemon Set",
+      "img": "",
+      "element": "Brass",
+      "id": "LemonSet_0"
+    },
+    {
+      "title": "American Lemon Set",
+      "img": "",
+      "element": "Brass",
+      "id": "LemonSet_1"
+    },
+    {
+      "title": "Itallian Lemon Set",
+      "img": "",
+      "element": "Brass",
+      "id": "LemonSet_2"
+    },
+    {
+      "title": "Platinum Lemon Set",
+      "img": "",
+      "element": "CopperSteel",
+      "id": "LemonSet_3"
+    },
+    {
+      "title": "Sonata Lemon Set",
+      "img": "",
+      "element": "Brass",
+      "id": "LemonSet_4"
+    },
+    {
+      "title": "Signature Lemon Set",
+      "img": "",
+      "element": "CopperSteel",
+      "id": "LemonSet_5"
+    }
+  ],
+  "Jug": [
+    {
+      "title": "Jug Berrol",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_0"
+    },
+    {
+      "title": "Jug Hotel Japani",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_1"
+    },
+    {
+      "title": "Jug Ashoks",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_2"
+    },
+    {
+      "title": "Jug Hotel Etching",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_3"
+    },
+    {
+      "title": "Jug Alfa",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_4"
+    },
+    {
+      "title": "Jug Motiya",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_5"
+    },
+    {
+      "title": "Jug Matki",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_6"
+    },
+    {
+      "title": "Jug Thumps Up",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_7"
+    },
+    {
+      "title": "Jug Sonata",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_8"
+    },
+    {
+      "title": "Jug Hammered",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_9"
+    },
+    {
+      "title": "Jug Kangaroo",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_10"
+    },
+    {
+      "title": "Jug Burfi",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_11"
+    },
+    {
+      "title": "Jug Flora",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_12"
+    },
+    {
+      "title": "Jug Italian",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_13"
+    },
+    {
+      "title": "Jug Double Embossed",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_14"
+    },
+    {
+      "title": "Jug American",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_15"
+    },
+    {
+      "title": "Jug More",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_16"
+    },
+    {
+      "title": "Jug Samrat",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_17"
+    },
+    {
+      "title": "Jug Tara",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_18"
+    },
+    {
+      "title": "Jug Hardar",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_19"
+    },
+    {
+      "title": "Jug Lotus",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_20"
+    },
+    {
+      "title": "Jug Audi",
+      "img": "",
+      "element": "Brass",
+      "id": "Jug_21"
+    },
+    {
+      "title": "Jug Copper Luxury",
+      "img": "",
+      "element": "Copper",
+      "id": "Jug_22"
+    },
+    {
+      "title": "Jug Copper Antique",
+      "img": "",
+      "element": "Copper",
+      "id": "Jug_23"
+    },
+    {
+      "title": "Jug Copper Hammered",
+      "img": "",
+      "element": "Copper",
+      "id": "Jug_24"
+    },
+    {
+      "title": "Jug Copper Regal",
+      "img": "",
+      "element": "Copper",
+      "id": "Jug_25"
+    },
+    {
+      "title": "Jug Copper Ringer",
+      "img": "",
+      "element": "Copper",
+      "id": "Jug_26"
+    },
+    {
+      "title": "Jug Copper Etching",
+      "img": "",
+      "element": "Copper",
+      "id": "Jug_27"
+    },
+    {
+      "title": "Jug Copperring Hammered",
+      "img": "",
+      "element": "Copper",
+      "id": "Jug_28"
+    },
+    {
+      "title": "Jug Copper Mughlai",
+      "img": "",
+      "element": "Copper",
+      "id": "Jug_29"
+    },
+    {
+      "title": "Jug Steel Copper Diamond",
+      "img": "",
+      "element": "CopperSteel",
+      "id": "Jug_30"
+    },
+    {
+      "title": "Jug Copper Elephant",
+      "img": "",
+      "element": "Copper",
+      "id": "Jug_31"
+    },
+    {
+      "title": "Jug Copper Disco Hammered",
+      "img": "",
+      "element": "Copper",
+      "id": "Jug_32"
+    },
+    {
+      "title": "Jug Steel Copper Ringer",
+      "img": "",
+      "element": "CopperSteel",
+      "id": "Jug_33"
+    },
+    {
+      "title": "Jug Steel Copper Lazer",
+      "img": "",
+      "element": "CopperSteel",
+      "id": "Jug_34"
+    },
+    {
+      "title": "Jug Copper Disco Emboss",
+      "img": "",
+      "element": "Copper",
+      "id": "Jug_35"
+    },
+    {
+      "title": "Jug Copper Pepsi Emboss",
+      "img": "",
+      "element": "Copper",
+      "id": "Jug_36"
+    },
+    {
+      "title": "Jug Steel Copper Signature",
+      "img": "",
+      "element": "CopperSteel",
+      "id": "Jug_37"
+    },
+    {
+      "title": "Jug Steel Copper Luxury",
+      "img": "",
+      "element": "CopperSteel",
+      "id": "Jug_38"
+    },
+    {
+      "title": "Jug Platinum Plain",
+      "img": "",
+      "element": "CopperSteel",
+      "id": "Jug_39"
+    },
+    {
+      "title": "Jug Steel Copper Amble",
+      "img": "",
+      "element": "CopperSteel",
+      "id": "Jug_40"
+    },
+    {
+      "title": "Jug Steel Copper Dyna",
+      "img": "",
+      "element": "CopperSteel",
+      "id": "Jug_41"
+    },
+    {
+      "title": "Jug Platinum Laser",
+      "img": "",
+      "element": "CopperSteel",
+      "id": "Jug_42"
+    },
+    {
+      "title": "Jug Steel Copper Elite",
+      "img": "",
+      "element": "CopperSteel",
+      "id": "Jug_43"
+    },
+    {
+      "title": "Jug Steel Copper Sleek",
+      "img": "",
+      "element": "CopperSteel",
+      "id": "Jug_44"
+    }
+  ],
+  "Glass": [
+    {
+      "title": "Glass Nakshatra",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_0"
+    },
+    {
+      "title": "Glass Signature",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_1"
+    },
+    {
+      "title": "Glass Dana Engraving",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_2"
+    },
+    {
+      "title": "Glass Apple Engraving",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_3"
+    },
+    {
+      "title": "Glass Frooti",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_4"
+    },
+    {
+      "title": "Glass Berol",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_5"
+    },
+    {
+      "title": "Glass Glory Engraving",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_6"
+    },
+    {
+      "title": "Glass Pari Japani",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_7"
+    },
+    {
+      "title": "Glass Unique",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_8"
+    },
+    {
+      "title": "Glass Thumps Up",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_9"
+    },
+    {
+      "title": "Glass Luxury",
+      "img": "",
+      "element": "Barass",
+      "id": "Glass_10"
+    },
+    {
+      "title": "Glass Dana Barfi",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_11"
+    },
+    {
+      "title": "Glass Glory Japani",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_12"
+    },
+    {
+      "title": "Glass Dana Ringer",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_13"
+    },
+    {
+      "title": "Glass Italian",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_14"
+    },
+    {
+      "title": "Glass Lemon Engraving",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_15"
+    },
+    {
+      "title": "Glass Lemon Japani",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_16"
+    },
+    {
+      "title": "Glass Polo",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_17"
+    },
+    {
+      "title": "Glass Diamond",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_18"
+    },
+    {
+      "title": "Glass Damru",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_19"
+    },
+    {
+      "title": "Glass Fusion",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_20"
+    },
+    {
+      "title": "Glass Jaipuria",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_21"
+    },
+    {
+      "title": "Glass Dana Japani",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_22"
+    },
+    {
+      "title": "Glass Pipe Laser",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_23"
+    },
+    {
+      "title": "Glass Danalazer",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_24"
+    },
+    {
+      "title": "Glass Sonata",
+      "img": "",
+      "element": "Barass",
+      "id": "Glass_25"
+    },
+    {
+      "title": "Glass Pari",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_26"
+    },
+    {
+      "title": "Glass 7 Up",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_27"
+    },
+    {
+      "title": "Glass Sprite",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_28"
+    },
+    {
+      "title": "Glass Kum Kum",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_29"
+    },
+    {
+      "title": "Glass Dana Etching",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_30"
+    },
+    {
+      "title": "Glass Signature",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_31"
+    },
+    {
+      "title": "Glass Anda",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_32"
+    },
+    {
+      "title": "Baby Glassy Embossed",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_33"
+    },
+    {
+      "title": "Glass Limosine",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_34"
+    },
+    {
+      "title": "Glass Hardar",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_35"
+    },
+    {
+      "title": "Bhog Glassy Engraving",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_36"
+    },
+    {
+      "title": "Baby Glassy",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_37"
+    },
+    {
+      "title": "Glass Lemon Disco",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_38"
+    },
+    {
+      "title": "Glass Disco",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_39"
+    },
+    {
+      "title": "Glass Twenty 20",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_40"
+    },
+    {
+      "title": "Glass American",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_41"
+    },
+    {
+      "title": "Glass Hammer",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_42"
+    },
+    {
+      "title": "Glass Supreme",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_43"
+    },
+    {
+      "title": "Glass Plain",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_44"
+    },
+    {
+      "title": "Glass Salai",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_45"
+    },
+    {
+      "title": "Glass Nagali",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_46"
+    },
+    {
+      "title": "Glass Etching",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_47"
+    },
+    {
+      "title": "Glass Lazer",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_48"
+    },
+    {
+      "title": "Glass Punjabi",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_49"
+    },
+    {
+      "title": "Glass Japan",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_50"
+    },
+    {
+      "title": "Glass Maha Jumbo",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_51"
+    },
+    {
+      "title": "Glass Antique",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_52"
+    },
+    {
+      "title": "Glass Chrome Jharra",
+      "img": "",
+      "element": "Brass",
+      "id": "Glass_53"
+    },
+    {
+      "title": "Glass Copper Hammered",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_54"
+    },
+    {
+      "title": "Glass Bronze Bangla",
+      "img": "",
+      "element": "Bronze",
+      "id": "Glass_55"
+    },
+    {
+      "title": "Glass Bronze Ring",
+      "img": "",
+      "element": "Bronze",
+      "id": "Glass_56"
+    },
+    {
+      "title": "Glass Kansh Supreme",
+      "img": "",
+      "element": "Bronze",
+      "id": "Glass_57"
+    },
+    {
+      "title": "Glass Copper Luxury",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_58"
+    },
+    {
+      "title": "Glass Bronze Pipe",
+      "img": "",
+      "element": "Bronze",
+      "id": "Glass_59"
+    },
+    {
+      "title": "Glass Bronze Pari",
+      "img": "",
+      "element": "Bronze",
+      "id": "Glass_60"
+    },
+    {
+      "title": "Glass Copper Pepsi",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_61"
+    },
+    {
+      "title": "Glass Copper Fanta",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_62"
+    },
+    {
+      "title": "Glass Copper Polo",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_63"
+    },
+    {
+      "title": "Glass Copper Thumps Up",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_64"
+    },
+    {
+      "title": "Glass Copper Mughal Embossed",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_65"
+    },
+    {
+      "title": "Glass Copper Lahar",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_66"
+    },
+    {
+      "title": "Glass Copper Mughal Hammered",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_67"
+    },
+    {
+      "title": "Glass Copper Prince",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_68"
+    },
+    {
+      "title": "Glass Copper Mercury",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_69"
+    },
+    {
+      "title": "Glass Copper Sleek",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_70"
+    },
+    {
+      "title": "Glass Copper Hammered Vivo",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_71"
+    },
+    {
+      "title": "Glass Copper Dyna",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_72"
+    },
+    {
+      "title": "Glass Copper Hammered Jumbo",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_73"
+    },
+    {
+      "title": "Glass Copper S.T. Jumbo",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_74"
+    },
+    {
+      "title": "Glass Copper S.T. Vivo",
+      "img": "",
+      "element": "Copper",
+      "id": "Glass_75"
+    },
+    {
+      "title": "Steel Copper Glass",
+      "img": "",
+      "element": "SteelCopper",
+      "id": "Glass_76"
+    },
+    {
+      "title": "Glass Steel Copper Platinum Plain",
+      "img": "",
+      "element": "SteelCopper",
+      "id": "Glass_77"
+    },
+    {
+      "title": "Glass Steel Copper Platinum Lazer",
+      "img": "",
+      "element": "SteelCopper",
+      "id": "Glass_78"
+    },
+    {
+      "title": "Glass Steel Copper Amarpali Lazer",
+      "img": "",
+      "element": "SteelCopper",
+      "id": "Glass_79"
+    },
+    {
+      "title": "Glass Steel Copper Amarpali Luxury",
+      "img": "",
+      "element": "SteelCopper",
+      "id": "Glass_80"
+    }
+  ],
+  "Bowl": [
+    {
+      "title": "Katori Signature",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_0"
+    },
+    {
+      "title": "Katori Maharaja",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_1"
+    },
+    {
+      "title": "Dana Katori Etching",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_2"
+    },
+    {
+      "title": "Apple Bowl Engraving",
+      "img": "",
+      "element": "Steel",
+      "id": "Bowl_3"
+    },
+    {
+      "title": "Katori Lahar",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_4"
+    },
+    {
+      "title": "Katori Apple (1)",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_5"
+    },
+    {
+      "title": "Bowl Japani",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_6"
+    },
+    {
+      "title": "Katori Dana Japani",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_7"
+    },
+    {
+      "title": "Katori Apple (2)",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_8"
+    },
+    {
+      "title": "Katori Japani",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_9"
+    },
+    {
+      "title": "Katori Flowert",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_10"
+    },
+    {
+      "title": "Katori Royal",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_11"
+    },
+    {
+      "title": "Katora Japani",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_12"
+    },
+    {
+      "title": "Katori Liner",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_13"
+    },
+    {
+      "title": "Katori Kum Kum",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_14"
+    },
+    {
+      "title": "Pudding Kum Kum",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_15"
+    },
+    {
+      "title": "Pudding Engraving",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_16"
+    },
+    {
+      "title": "Pudding Dana",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_17"
+    },
+    {
+      "title": "Pudding Bronze",
+      "img": "",
+      "element": "Bronze",
+      "id": "Bowl_18"
+    },
+    {
+      "title": "Basket Copper",
+      "img": "",
+      "element": "Copper",
+      "id": "Bowl_19"
+    },
+    {
+      "title": "Pudding Signature",
+      "img": "",
+      "element": "Brass",
+      "id": "Bowl_20"
+    },
+    {
+      "title": "Katori Bronze Taper",
+      "img": "",
+      "element": "Bronze",
+      "id": "Bowl_21"
+    },
+    {
+      "title": "Katori Copper Etching",
+      "img": "",
+      "element": "Copper",
+      "id": "Bowl_22"
+    },
+    {
+      "title": "Katori Copper Hammered",
+      "img": "",
+      "element": "Copper",
+      "id": "Bowl_23"
+    },
+    {
+      "title": "Katori Bronze Patti",
+      "img": "",
+      "element": "Bronze",
+      "id": "Bowl_24"
+    },
+    {
+      "title": "Katori Bronze",
+      "img": "",
+      "element": "Bronze",
+      "id": "Bowl_25"
+    },
+    {
+      "title": "Katora Copper",
+      "img": "",
+      "element": "Copper",
+      "id": "Bowl_26"
+    },
+    {
+      "title": "Katori Copper Steel Hammered",
+      "img": "",
+      "element": "CopperSteel",
+      "id": "Bowl_27"
+    }
+  ],
+  "TeaPot": [
+    {
+      "title": "Hammered Tea Pot",
+      "img": "",
+      "element": "Brass",
+      "id": "TeaPot_0"
+    },
+    {
+      "title": "Tea Pot Dana Half End",
+      "img": "",
+      "element": "Brass",
+      "id": "TeaPot_1"
+    },
+    {
+      "title": "Tea Pot Embossed",
+      "img": "",
+      "element": "Brass",
+      "id": "TeaPot_2"
+    },
+    {
+      "title": "Hammered Tea Pot",
+      "img": "",
+      "element": "BrassCopper",
+      "id": "TeaPot_3"
+    },
+    {
+      "title": "Tea Pot Nakshi",
+      "img": "",
+      "element": "Brass",
+      "id": "TeaPot_4"
+    },
+    {
+      "title": "Tea Pot Japani",
+      "img": "",
+      "element": "Brass",
+      "id": "TeaPot_5"
+    }
+  ],
+  "Mug": [
+    {
+      "title": "Mug Two Tone",
+      "img": "",
+      "element": "Brass",
+      "id": "Mug_0"
+    },
+    {
+      "title": "Mug Vivo",
+      "img": "",
+      "element": "Brass",
+      "id": "Mug_1"
+    },
+    {
+      "title": "Mug Oppo",
+      "img": "",
+      "element": "Brass",
+      "id": "Mug_2"
+    },
+    {
+      "title": "Cup Japani",
+      "img": "",
+      "element": "Brass",
+      "id": "Mug_3"
+    }
+  ],
+  "CupPlate": [
+    {
+      "title": "Coffee Dabra Set",
+      "img": "",
+      "element": "Brass",
+      "id": "CupPlate_0"
+    },
+    {
+      "title": "Cup Plate Datna",
+      "img": "",
+      "element": "Brass",
+      "id": "CupPlate_1"
+    },
+    {
+      "title": "Cup Plate Hammered Brass",
+      "img": "",
+      "element": "Brass",
+      "id": "CupPlate_2"
+    },
+    {
+      "title": "Coper Mug With Lid",
+      "img": "",
+      "element": "Copper",
+      "id": "CupPlate_3"
+    },
+    {
+      "title": "Cup Plate Rocket",
+      "img": "",
+      "element": "Brass",
+      "id": "CupPlate_4"
+    },
+    {
+      "title": "Cup Plate Hammered Copper Steel",
+      "img": "",
+      "element": "Copper",
+      "id": "CupPlate_5"
+    }
+  ],
+  "Lota": [
+    {
+      "title": "Lota Plain",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_0"
+    },
+    {
+      "title": "Lota Disco",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_1"
+    },
+    {
+      "title": "Lota Lehar",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_2"
+    },
+    {
+      "title": "Lota Cherry",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_3"
+    },
+    {
+      "title": "Matki Disco",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_4"
+    },
+    {
+      "title": "Lota Oscer",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_5"
+    },
+    {
+      "title": "Lota Dhoraji",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_6"
+    },
+    {
+      "title": "Lota Japani",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_7"
+    },
+    {
+      "title": "Lota Matki Embossed",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_8"
+    },
+    {
+      "title": "Lota Dhoraji Hammer",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_9"
+    },
+    {
+      "title": "Jhara Chrome",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_10"
+    },
+    {
+      "title": "Lota Diamond",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_11"
+    },
+    {
+      "title": "Lota Royal",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_12"
+    },
+    {
+      "title": "Badu",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_13"
+    },
+    {
+      "title": "Lota Bronze",
+      "img": "",
+      "element": "Bronze",
+      "id": "Lota_14"
+    },
+    {
+      "title": "Lota Signature",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_15"
+    },
+    {
+      "title": "Lota Patti",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_16"
+    },
+    {
+      "title": "Budna Japani",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_17"
+    },
+    {
+      "title": "Budna Disco",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_18"
+    },
+    {
+      "title": "Budna Embossed",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_19"
+    },
+    {
+      "title": "Peekdaw",
+      "img": "",
+      "element": "Brass",
+      "id": "Lota_20"
+    },
+    {
+      "title": "Lota Copper Cherry",
+      "img": "",
+      "element": "Copper",
+      "id": "Lota_21"
+    },
+    {
+      "title": "Lota Copper Prints",
+      "img": "",
+      "element": "Copper",
+      "id": "Lota_22"
+    },
+    {
+      "title": "Copper Karwa Sagar",
+      "img": "",
+      "element": "Copper",
+      "id": "Lota_23"
+    },
+    {
+      "title": "Lota Copper Nakashi",
+      "img": "",
+      "element": "Copper",
+      "id": "Lota_24"
+    },
+    {
+      "title": "Lota Copper Parsi",
+      "img": "",
+      "element": "Copper",
+      "id": "Lota_25"
+    },
+    {
+      "title": "Copper Neti Lota",
+      "img": "",
+      "element": "Copper",
+      "id": "Lota_26"
+    }
+  ],
+  "Kalash": [
+    {
+      "title": "Kalash Disco",
+      "img": "",
+      "element": "Brass",
+      "id": "Kalash_0"
+    }
+  ],
+  "Pan": [
+    {
+      "title": "Suace Pan",
+      "img": "",
+      "element": "Brass",
+      "id": "Pan_0"
+    },
+    {
+      "title": "Fry Pan Casting",
+      "img": "",
+      "element": "Brass",
+      "id": "Pan_1"
+    },
+    {
+      "title": "Fry Pan",
+      "img": "",
+      "element": "Brass",
+      "id": "Pan_2"
+    }
+  ],
+  "Bonton": [
+    {
+      "title": "Bonton Brass Handle",
+      "img": "",
+      "element": "Brass",
+      "id": "Bonton_0"
+    },
+    {
+      "title": "Bonton Brass B/L Handle",
+      "img": "",
+      "element": "Brass",
+      "id": "Bonton_1"
+    },
+    {
+      "title": "Brass Patili With Lid",
+      "img": "",
+      "element": "Brass",
+      "id": "Bonton_2"
+    },
+    {
+      "title": "Copper Patili With Lid",
+      "img": "",
+      "element": "Copper",
+      "id": "Bonton_3"
+    }
+  ],
+  "Kadai": [
+    {
+      "title": "Kadai Casting",
+      "img": "",
+      "element": "Brass",
+      "id": "Kadai_0"
+    },
+    {
+      "title": "Kadai Brass With Lid",
+      "img": "",
+      "element": "Brass",
+      "id": "Kadai_1"
+    },
+    {
+      "title": "Kadai Copper With Lid",
+      "img": "",
+      "element": "Copper",
+      "id": "Kadai_2"
+    }
+  ],
+  "Donga": [
+    {
+      "title": "Donga English",
+      "img": "",
+      "element": "Brass",
+      "id": "Donga_0"
+    },
+    {
+      "title": "Donga Border",
+      "img": "",
+      "element": "Brass",
+      "id": "Donga_1"
+    },
+    {
+      "title": "Donga Royal",
+      "img": "",
+      "element": "Brass",
+      "id": "Donga_2"
+    },
+    {
+      "title": "Donga Etching",
+      "img": "",
+      "element": "Brass",
+      "id": "Donga_3"
+    },
+    {
+      "title": "Donga Bronze Border",
+      "img": "",
+      "element": "Bronze",
+      "id": "Donga_4"
+    },
+    {
+      "title": "Donga Bronze",
+      "img": "",
+      "element": "Bronze",
+      "id": "Donga_5"
+    }
+  ],
+  "Bottle": [
+    {
+      "title": "Bottle Hammered",
+      "img": "",
+      "element": "Copper",
+      "id": "Bottle_0"
+    },
+    {
+      "title": "Bottle Plain/Matt",
+      "img": "",
+      "element": "Copper",
+      "id": "Bottle_1"
+    },
+    {
+      "title": "Bottle Champaign",
+      "img": "",
+      "element": "Copper",
+      "id": "Bottle_2"
+    },
+    {
+      "title": "Bottle Sparkle",
+      "img": "",
+      "element": "Brass",
+      "id": "Bottle_3"
+    },
+    {
+      "title": "Bottle Steel Copper",
+      "img": "",
+      "element": "SteelCopper",
+      "id": "Bottle_4"
+    },
+    {
+      "title": "Bottle Meena",
+      "img": "",
+      "element": "Copper",
+      "id": "Bottle_5"
+    }
+  ],
+  "Tanki": [
+    {
+      "title": "Water Tanks",
+      "img": "",
+      "element": "Copper",
+      "id": "Tanki_0"
+    },
+    {
+      "title": "Water Tanks Designer",
+      "img": "",
+      "element": "Copper",
+      "id": "Tanki_1"
+    }
+  ],
+  "Dabba": [
+    {
+      "title": "Brass Patili (Inside Kalai)",
+      "img": "",
+      "element": "Brass",
+      "id": "Dabba_0"
+    },
+    {
+      "title": "Masala Box",
+      "img": "",
+      "element": "Brass",
+      "id": "Dabba_1"
+    },
+    {
+      "title": "Brass Urli Plain",
+      "img": "",
+      "element": "Brass",
+      "id": "Dabba_2"
+    },
+    {
+      "title": "Brass Katordan",
+      "img": "",
+      "element": "Brass",
+      "id": "Dabba_3"
+    },
+    {
+      "title": "Brass Unique Tiffin",
+      "img": "",
+      "element": "Brass",
+      "id": "Dabba_4"
+    },
+    {
+      "title": "Masala Box Hammered",
+      "img": "",
+      "element": "Brass",
+      "id": "Dabba_5"
+    },
+    {
+      "title": "Milk Pot Hammered",
+      "img": "",
+      "element": "Brass",
+      "id": "Dabba_6"
+    },
+    {
+      "title": "Brass Laddu Box Hammered",
+      "img": "",
+      "element": "Brass",
+      "id": "Dabba_7"
+    },
+    {
+      "title": "Brass Handi With Glass Lid",
+      "img": "",
+      "element": "Brass",
+      "id": "Dabba_8"
+    },
+    {
+      "title": "Brass Urli Hammered",
+      "img": "",
+      "element": "Brass",
+      "id": "Dabba_9"
+    },
+    {
+      "title": "Deep Dabba Hammered",
+      "img": "",
+      "element": "Brass",
+      "id": "Dabba_10"
+    }
+  ],
+  "Miscellaneous": [
+    {
+      "title": "Imamdasta",
+      "img": "",
+      "element": "Brass",
+      "id": "Miscellaneous_0"
+    },
+    {
+      "title": "Tea Strainer",
+      "img": "",
+      "element": "Brass",
+      "id": "Miscellaneous_1"
+    },
+    {
+      "title": "Ghee Pot",
+      "img": "",
+      "element": "Brass",
+      "id": "Miscellaneous_2"
+    },
+    {
+      "title": "Pooja Plate Two Tone",
+      "img": "",
+      "element": "TwoTone",
+      "id": "Miscellaneous_3"
+    },
+    {
+      "title": "Pooja Plate Brass",
+      "img": "",
+      "element": "Brass",
+      "id": "Miscellaneous_4"
+    },
+    {
+      "title": "Pooja Basket Set Of 2",
+      "img": "",
+      "element": "Brass",
+      "id": "Miscellaneous_5"
+    }
+  ],
+  "Cutlery": [
+    {
+      "title": "Spoon Regency",
+      "img": "",
+      "element": "Brass",
+      "id": "Cutlery_0"
+    },
+    {
+      "title": "Fork Regency Brass",
+      "img": "",
+      "element": "Brass",
+      "id": "Cutlery_1"
+    },
+    {
+      "title": "Brass Tea Spoon King",
+      "img": "",
+      "element": "Brass",
+      "id": "Cutlery_2"
+    },
+    {
+      "title": "Brass Spoon Juhi",
+      "img": "",
+      "element": "Brass",
+      "id": "Cutlery_3"
+    },
+    {
+      "title": "Brass Spoon Signature",
+      "img": "",
+      "element": "Brass",
+      "id": "Cutlery_4"
+    },
+    {
+      "title": "Service Spoon",
+      "img": "",
+      "element": "Bronze",
+      "id": "Cutlery_5"
+    },
+    {
+      "title": "Baby Spoon",
+      "img": "",
+      "element": "Bronze",
+      "id": "Cutlery_6"
+    },
+    {
+      "title": "Brass Fork King",
+      "img": "",
+      "element": "Brass",
+      "id": "Cutlery_7"
+    },
+    {
+      "title": "Brass Knife King",
+      "img": "",
+      "element": "Brass",
+      "id": "Cutlery_8"
+    },
+    {
+      "title": "Brass Service Spoon King",
+      "img": "",
+      "element": "Brass",
+      "id": "Cutlery_9"
+    },
+    {
+      "title": "Rice Palta King",
+      "img": "",
+      "element": "Brass",
+      "id": "Cutlery_10"
+    },
+    {
+      "title": "Rice Palta",
+      "img": "",
+      "element": "Bronze",
+      "id": "Cutlery_11"
+    },
+    {
+      "title": "Steel Copper Spoon",
+      "img": "",
+      "element": "SteelCopper",
+      "id": "Cutlery_12"
+    }
+  ]
+}

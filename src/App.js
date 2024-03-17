@@ -16,6 +16,7 @@ import Home from "./components/Landing/Home";
 import ItemPage from "./components/ItemPage";
 import Error from "./components/Error";
 import Footer from "./components/Footer";
+import IndividualProductPage from "./components/IndividualProductPage";
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
           <Route
             path="/categories/:categoryId/:productId"
             element={<ItemPage />}
+          />
+          <Route
+            path="/category/:category"
+            element={<IndividualProductPage />}
           />
           <Route path="*" element={<Error />} />
         </Routes>
