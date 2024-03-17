@@ -1,4 +1,4 @@
-import { Facebook, Instagram } from "@mui/icons-material";
+// import { Facebook, Instagram } from "@mui/icons-material";
 import React, { useEffect } from "react";
 import "./Navbar/Navbar.css";
 import { FaInternetExplorer } from "react-icons/fa";
@@ -36,8 +36,8 @@ const Footer = () => {
         </div>
         <div className="hover-underline-animation1">Ask Us</div>
         <div className="flex flex-row gap-3 items-center justify-center ">
-          <Instagram />
-          <Facebook />
+          {/* <Instagram /> */}
+          {/* <Facebook /> */}
           <FaInternetExplorer />
         </div>
       </div>

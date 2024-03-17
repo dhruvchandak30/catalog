@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import gsap from "gsap";
+// import gsap from "gsap";
 import "./Image.css";
 
 import { ImageGroup, Image } from "react-fullscreen-image";
