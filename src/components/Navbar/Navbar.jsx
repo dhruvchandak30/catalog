@@ -39,12 +39,12 @@ const Navbar = () => {
             >
               Home
             </div>
-            {/* <div
+            <div
               className="hover-underline-animation hover:text-red-700 cursor-pointer"
               onClick={AboutNavigateHandler}
             >
               About
-            </div> */}
+            </div>
             <div
               className="hover-underline-animation hover:text-red-700 cursor-pointer"
               onClick={CategoryNavigateHandler}

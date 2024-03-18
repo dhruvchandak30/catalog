@@ -11,7 +11,7 @@ import Navbar from "./components/Navbar/Navbar";
 import ProductsPage from "./components/Products/ProductsPage";
 import Categories from "./components/Categories";
 import Contact from "./components/Contact";
-import About from "./components/About";
+import About from "./components/About/About";
 import Home from "./components/Landing/Home";
 import ItemPage from "./components/ItemPage";
 import Error from "./components/Error";
@@ -26,7 +26,7 @@ function App() {
         <hr className="bg-black"></hr>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/categories/:categoryId" element={<ProductsPage />} />
