@@ -3,6 +3,7 @@ import Carousel from "./Carousel";
 import ChooseUs from "./ChooseUs";
 import IndianMarket from "./IndianMarket";
 import PopularProducts from "./PopularProducts";
+import Element from "./Element";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Carousel />
       <ChooseUs />
       <PopularProducts />
+      <Element />
       <IndianMarket />
     </div>
   );

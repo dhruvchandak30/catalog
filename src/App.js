@@ -17,11 +17,15 @@ import ItemPage from "./components/ItemPage";
 import Error from "./components/Error";
 import Footer from "./components/Footer";
 import IndividualProductPage from "./components/IndividualProductPage";
+import IndivElementPage from "./components/Landing/IndivElementPage";
 
 function App() {
+  const ScrollTopHandler = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <Router>
-      <div className="App">
+      <div className="App" onLoad={ScrollTopHandler}>
         <Navbar />
         <hr className="bg-black"></hr>
         <Routes>
@@ -38,6 +42,7 @@ function App() {
             path="/category/:category"
             element={<IndividualProductPage />}
           />
+          <Route path="/element/:element" element={<IndivElementPage />} />
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

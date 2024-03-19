@@ -5,7 +5,7 @@ import ItemsPage from "./ItemPage";
 
 const IndividualProductPage = () => {
   const { category } = useParams();
-  console.log(category);
+  // console.log(category);
 
   const categoryItems = data[category] || [];
 
