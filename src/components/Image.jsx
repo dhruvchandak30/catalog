@@ -10,7 +10,7 @@ const ImageComp = ({ link, text }) => {
       <ImageGroup>
         <ul className="images">
           <li>
-            <Image src={link} alt="mountains" />
+            <Image src={link} alt={text} />
           </li>
         </ul>
       </ImageGroup>

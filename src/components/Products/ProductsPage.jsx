@@ -12,16 +12,17 @@ const ProductsPage = ({ items, category }) => {
   };
 
   return (
-    <div className="flex flex-row">
-      {firstItems.map((item) => (
-        <div key={item.id} className=" ">
-          <ItemsPage data={item} />
-        </div>
-      ))}
-
+    <div className="flex lg:flex-row flex-col">
+      <div className="flex flex-row ">
+        {firstItems.map((item, index) => (
+          <div key={item.id} className="">
+            <ItemsPage data={item} />
+          </div>
+        ))}
+      </div>
       <div
         onClick={redirectPageHandler}
-        className="text-red-700 border-2 border-black flex font-bold cursor-pointer items-center justify-center"
+        className="text-red-700 border-2 border-black flex font-bold cursor-pointer items-center justify-center mt-6 px-2 rounded-xl"
       >
         See More
       </div>

@@ -7,7 +7,7 @@ const Element = () => {
       <div className="text-5xl font-semibold ">
         Utensils Sorted According Material
       </div>
-      <div className="flex flex-col gap-8 mx-4">
+      <div className="flex flex-col gap-8">
         <div>
           <div className="text-3xl font-bold text-red-500">Brass</div>
           <Metal element="Brass" />

@@ -4,8 +4,6 @@ body {
 .MainContainer::-webkit-scrollbar {
   display: none;
 }
-
-/* Hide scrollbar for IE, Edge and Firefox */
 .MainContainer {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
@@ -22,7 +20,7 @@ ul.images {
 
 ul.images > li {
   position: relative;
-  padding-top: 66%;
+  padding-top: 106%;
 }
 
 ul.images > li img {

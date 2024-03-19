@@ -39,55 +39,37 @@ const ChooseUs = () => {
         WHY CHOOSE US ?
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mx-8">
-        <div class="flex flex-row lg:p-4 gap-3 rounded-xl bg-[#AB0C0A] text-left items-center">
-          <div class="">
-            <TbHexagonNumber1 />
-          </div>
+        <div class="flex flex-row lg:p-4 gap-3 rounded-xl bg-[#AB0C0A] text-left items-center p-8">
           <div>
             <div className="text-2xl font-semibold ">{Data[0].title}</div>
             <div className="text-xl text-slate-200">{Data[0].desc}</div>
           </div>
         </div>
-        <div class="flex flex-row lg:p-4 gap-3 rounded-xl bg-[#AB0C0A] text-left items-center">
-          <div>
-            <TbHexagonNumber2 />
-          </div>
+        <div class="flex flex-row lg:p-4 gap-3 rounded-xl bg-[#AB0C0A] text-left items-center p-8">
           <div>
             <div className="text-2xl font-semibold ">{Data[1].title}</div>
             <div className="text-xl text-slate-200">{Data[1].desc}</div>
           </div>
         </div>
-        <div class="flex flex-row lg:p-4 gap-3 rounded-xl bg-[#AB0C0A] text-left items-center">
-          <div>
-            <TbHexagonNumber3 />
-          </div>
+        <div class="flex flex-row lg:p-4 gap-3 rounded-xl bg-[#AB0C0A] text-left items-center p-8">
           <div>
             <div className="text-2xl font-semibold ">{Data[2].title}</div>
             <div className="text-xl text-slate-200">{Data[2].desc}</div>
           </div>
         </div>
-        <div class="flex flex-row lg:p-4 gap-3 rounded-xl bg-[#AB0C0A] text-left items-center">
-          <div>
-            <TbHexagonNumber4 />
-          </div>
+        <div class="flex flex-row lg:p-4 gap-3 rounded-xl bg-[#AB0C0A] text-left items-center p-8">
           <div>
             <div className="text-2xl font-semibold ">{Data[3].title}</div>
             <div className="text-xl text-slate-200">{Data[3].desc}</div>
           </div>
         </div>
-        <div class="flex flex-row lg:p-4 gap-3 rounded-xl bg-[#AB0C0A] text-left items-center">
-          <div>
-            <TbHexagonNumber5 />
-          </div>
+        <div class="flex flex-row lg:p-4 gap-3 rounded-xl bg-[#AB0C0A] text-left items-center p-8">
           <div>
             <div className="text-2xl font-semibold ">{Data[4].title}</div>
             <div className="text-xl text-slate-200">{Data[4].desc}</div>
           </div>
         </div>
-        <div class="flex flex-row lg:p-4 gap-3 rounded-xl bg-[#AB0C0A] text-left items-center">
-          <div>
-            <TbHexagonNumber6 />
-          </div>
+        <div class="flex flex-row lg:p-4 gap-3 rounded-xl bg-[#AB0C0A] text-left items-center p-8">
           <div>
             <div className="text-2xl font-semibold ">{Data[5].title}</div>
             <div className="text-xl text-slate-200">{Data[5].desc}</div>

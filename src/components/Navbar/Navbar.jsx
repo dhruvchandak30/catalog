@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -6,25 +6,41 @@ import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
+  const [isChecked, setIsChecked] = useState(false);
+
   const HomeNavigateHandler = () => {
     navigate("/");
+    setIsChecked(false);
   };
   const ContactNavigateHandler = () => {
     navigate("/contact");
+    setIsChecked(false);
   };
   const AboutNavigateHandler = () => {
     navigate("/about");
+    setIsChecked(false);
   };
   const CategoryNavigateHandler = () => {
     navigate("/categories");
+    setIsChecked(false);
   };
+
+  const handleInputChange = () => {
+    setIsChecked(!isChecked);
+  };
+
   return (
     <div>
       <nav>
-        <label for="check" id="checkbtn" className="-mt-0">
+        <label htmlFor="check" id="checkbtn" className="-mt-0">
           <FaBars />
         </label>
-        <input type="checkbox" id="check"></input>
+        <input
+          type="checkbox"
+          id="check"
+          checked={isChecked}
+          onChange={handleInputChange}
+        />
         <div className="NavbarUl flex lg:flex-row flex-col lg:justify-between items-center lg:mx-8 align-middle md:text-left">
           <label
             className="text-[#B01C1A] font-bold text-3xl flex pt-3 items-center justify-center cursor-pointer"
