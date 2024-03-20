@@ -1,10 +1,10 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import ItemsPage from "../ItemPage";
+import ItemsPage from "./ItemPage";
 
 const ProductsPage = ({ items, category }) => {
   const navigate = useNavigate();
-  const firstItemsCount = window.innerWidth < 768 ? 2 : 7; // Change the count based on screen width
+  const firstItemsCount = window.innerWidth < 768 ? 2 : 5; // Change the count based on screen width
   const firstItems = items.slice(0, firstItemsCount);
 
   const redirectPageHandler = () => {
@@ -12,10 +12,10 @@ const ProductsPage = ({ items, category }) => {
   };
 
   return (
-    <div className="flex lg:flex-row flex-col">
-      <div className="flex flex-row ">
+    <div className="flex lg:flex-row flex-col ">
+      <div className="flex flex-row w-full my-6">
         {firstItems.map((item, index) => (
-          <div key={item.id} className="">
+          <div key={item.id} className=" m-2 p-2 w-[15rem]">
             <ItemsPage data={item} />
           </div>
         ))}

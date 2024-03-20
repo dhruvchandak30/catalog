@@ -1,5 +1,5 @@
 {
-  "DinnerSet": [
+  "Dinner Set": [
     {
       "title": "Etching Art Dinner Set",
       "img": "",
@@ -13,7 +13,7 @@
       "id": "DinnerSet_1"
     }
   ],
-  "ThaliSet": [
+  "Thali Set": [
     {
       "title": "Border Thali Set",
       "img": "",
@@ -229,7 +229,7 @@
       "id": "Tray_2"
     }
   ],
-  "LemonSet": [
+  "Lemon Set": [
     {
       "title": "Flora Lemon Set",
       "img": "",
@@ -1197,7 +1197,7 @@
       "id": "Bowl_27"
     }
   ],
-  "TeaPot": [
+  "Tea Pot": [
     {
       "title": "Hammered Tea Pot",
       "img": "",
@@ -1261,7 +1261,7 @@
       "id": "Mug_3"
     }
   ],
-  "CupPlate": [
+  "Cup-Plate": [
     {
       "title": "Coffee Dabra Set",
       "img": "",

@@ -9,19 +9,25 @@ const Element = () => {
       </div>
       <div className="flex flex-col gap-8">
         <div>
-          <div className="text-3xl font-bold text-red-500">Brass</div>
+          <div className="text-4xl my-4 font-extrabold text-red-700">Brass</div>
           <Metal element="Brass" />
         </div>
         <div>
-          <div className="text-3xl font-bold text-red-500">Copper</div>
+          <div className="text-4xl my-4 font-extrabold text-red-700">
+            Copper
+          </div>
           <Metal element="Copper" />
         </div>
         <div>
-          <div className="text-3xl font-bold text-red-500">SteelCopper</div>
+          <div className="text-4xl my-4 font-extrabold text-red-700">
+            SteelCopper
+          </div>
           <Metal element="SteelCopper" />
         </div>
         <div>
-          <div className="text-3xl font-bold text-red-500">Bronze</div>
+          <div className="text-4xl my-4 font-extrabold text-red-700">
+            Bronze
+          </div>
           <Metal element="Bronze" />
         </div>
       </div>

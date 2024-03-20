@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -13,16 +13,22 @@ import Categories from "./components/Categories";
 import Contact from "./components/Contact";
 import About from "./components/About/About";
 import Home from "./components/Landing/Home";
-import ItemPage from "./components/ItemPage";
+import ItemPage from "./components/Products/ItemPage";
 import Error from "./components/Error";
 import Footer from "./components/Footer";
-import IndividualProductPage from "./components/IndividualProductPage";
+import IndividualProductPage from "./components/Products/IndividualProductPage";
 import IndivElementPage from "./components/Landing/IndivElementPage";
+import Element from "./components/Landing/Element";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const ScrollTopHandler = () => {
     window.scrollTo(0, 0);
   };
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <Router>
       <div className="App" onLoad={ScrollTopHandler}>
@@ -32,6 +38,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/metals" element={<Element />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/categories/:categoryId" element={<ProductsPage />} />
           <Route

@@ -8,10 +8,9 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
-    "framer-motion": "^11.0.14",
+    "framer-motion": "^11.0.15",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-fullscreen-image": "^0.0.3",
     "react-icons": "^5.0.1",
     "react-intersection-observer": "^9.8.1",
     "react-router": "^6.22.3",
@@ -21,7 +20,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "postinstall": "npm install react-fullscreen-image --force || true",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

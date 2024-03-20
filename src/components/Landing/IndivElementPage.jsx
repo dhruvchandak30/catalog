@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import data from "../data.json";
-import ItemsPage from "../ItemPage";
+import ItemsPage from "../Products/ItemPage";
 
 const IndivElementPage = () => {
   const { element } = useParams();

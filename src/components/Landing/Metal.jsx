@@ -1,5 +1,5 @@
 import React from "react";
-import ItemsPage from "../ItemPage";
+import ItemsPage from "../Products/ItemPage";
 import data from "../data.json";
 import { useNavigate } from "react-router";
 

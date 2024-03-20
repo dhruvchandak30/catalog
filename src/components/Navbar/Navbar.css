@@ -40,6 +40,7 @@ nav ul {
   display: none;
 }
 
+/* Hover Effect  */
 .hover-underline-animation {
   display: inline-block;
   position: relative;
@@ -89,6 +90,45 @@ nav ul {
   transform-origin: bottom left;
 }
 
+/* Drop Down */
+
+.dropbtn {
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 7%;
+  right: 7%;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #b01c1a;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
 @media (max-width: 952px) {
 }
 @media (max-width: 858px) {
@@ -116,3 +156,10 @@ nav ul {
     left: 0;
   }
 }
+
+
+.hover-underline-animation {
+  transition: transform 0.3s ease; /* Transition property for smooth animation */
+}
+
+

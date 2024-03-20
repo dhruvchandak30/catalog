@@ -5,27 +5,36 @@ import jug from "./jug.jpeg";
 import "../Navbar/Navbar.css";
 
 const PopularProducts = () => {
+  const firstFourCategories = Object.entries(data).slice(0, 4);
+
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col ">
       <div className="text-4xl font-bold text-slate-700 my-6">
-        Our Categories
+        Our Popular Products
       </div>
-      <div className="grid lg:grid-cols-5 grid-cols-2 lg:gap-4 gap-2">
-        {Object.entries(data).map(([category, items]) => (
-          <Link
-            to={`/category/${category}`}
-            key={category}
-            className="hover:no-underline"
-          >
-            <div className="flex flex-col items-center border-2 cursor-pointer">
-              <div className="w-max flex flex-col">
-                <img alt={category} src={jug} className="w-32 h-32" />
+
+      <div className="flex lg:flex-row flex-col  justify-evenly gap-2">
+        {firstFourCategories.map(([category, items]) => (
+          <div data-aos="fade-down" data-aos-offset="200" data-aos-delay="500">
+            <Link
+              to={`/category/${category}`}
+              key={category}
+              className="hover:no-underline"
+            >
+              <div className="flex flex-col items-center border-2 cursor-pointer p-8  item-container">
+                <div className="flex flex-col">
+                  <img
+                    alt={category}
+                    src={jug}
+                    className=" w-[10rem] h-[10rem] "
+                  />
+                </div>
+                <div className="hover-underline-animation text-red-500 text-2xl font-semibold">
+                  {category}
+                </div>
               </div>
-              <div className="hover-underline-animation text-red-500 text-2xl font-semibold">
-                {category}
-              </div>
-            </div>
-          </Link>
+            </Link>
+          </div>
         ))}
       </div>
     </div>

@@ -21,7 +21,20 @@ const Navbar = () => {
     setIsChecked(false);
   };
   const CategoryNavigateHandler = () => {
-    navigate("/categories");
+    document.getElementById("myDropdown").classList.toggle("show");
+
+    window.onclick = function (event) {
+      if (!event.target.matches(".dropbtn")) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains("show")) {
+            openDropdown.classList.remove("show");
+          }
+        }
+      }
+    };
     setIsChecked(false);
   };
 
@@ -62,10 +75,14 @@ const Navbar = () => {
               About
             </div>
             <div
-              className="hover-underline-animation hover:text-red-700 cursor-pointer"
+              className="dropbtn hover-underline-animation hover:text-red-700 cursor-pointer"
               onClick={CategoryNavigateHandler}
             >
               Categories
+            </div>
+            <div id="myDropdown" className="dropdown-content">
+              <Link to="/categories" className="hover-underline-animation">Type</Link>
+              <Link to="/metals" className="hover-underline-animation">Metals</Link>
             </div>
             <div
               className="hover-underline-animation hover:text-red-700 cursor-pointer"
