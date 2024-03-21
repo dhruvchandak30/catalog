@@ -28,7 +28,7 @@ const BrassItems = ({ element }) => {
       </div>
       <div
         onClick={redirectPageHandler}
-        className="text-red-700 border-2 border-black flex font-bold cursor-pointer items-center justify-center mt-6 px-2 rounded-xl"
+        className="text-[#B2B377] border-2 border-black flex font-bold cursor-pointer items-center justify-center mt-6 px-2 rounded-xl"
       >
         See More
       </div>

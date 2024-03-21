@@ -19,6 +19,10 @@ const Contact = () => {
       alert("Please Fill all Boxes");
       return;
     }
+    if (!recipient.includes("@gmail.com")) {
+      alert("Enter Valid Gmail Address");
+      return;
+    }
     try {
       setLoading(true);
       await emailjs.send(serviceId, templateId, {
@@ -37,40 +41,46 @@ const Contact = () => {
   return (
     <section className="flex flex-col gap-4 m-8  justify-center items-center align-middle">
       <form
-        className="for flex flex-col gap-3 border-2 border-black p-8 rounded-xl"
+        className="for flex flex-col gap-3 border-2 border-black p-8  rounded-xl"
         onSubmit={handleSubmit}
       >
-        <div className="form_group flex flex-row gap-2">
-          <label htmlFor="">Name</label>
+        <div className="form_group flex  flex-row gap-2 justify-between">
+          <label className="lg:text-xl" htmlFor="">
+            Name
+          </label>
           <input
-            className="border-2 px-2 border-red-700 rounded-md"
+            className="border-2 px-2 border-black rounded-md"
             ref={nameRef}
             placeholder="Name"
           />
         </div>
-        <div className="form_group flex flex-row gap-2">
-          <label htmlFor="">Gmail</label>
+        <div className="form_group flex  flex-row gap-2 justify-between">
+          <label className="lg:text-xl" htmlFor="">
+            Gmail
+          </label>
           <input
-            className="border-2 px-2 border-red-700 rounded-md"
+            className="border-2 px-2 lg:w-full  border-black rounded-md"
             ref={emailRef}
             type="email"
             placeholder="Your Gmail"
           />
         </div>
-        <div className="form_group flex flex-row gap-2">
-          <label htmlFor="">Message</label>
+        <div className="form_group flex  flex-row gap-2 justify-between">
+          <label className="lg:text-xl" htmlFor="">
+            Message
+          </label>
           <input
-            className="border-2 px-2 border-red-700 rounded-md"
+            className="border-2 px-2 border-black rounded-md"
             ref={messageRef}
             type="text"
             placeholder="Message"
           />
         </div>
         <button
-          className="btn bg-red-600 text-white border-1 border-black text-xl font-semibold"
+          className="btn bg-[#F1F5A8] text-black border-1 border-black text-xl font-semibold"
           disabled={loading}
         >
-          Subscribe
+          Send Message
         </button>
       </form>
     </section>

@@ -13,7 +13,7 @@ const ItemsPage = ({ data }) => {
       data-aos-delay="200"
       data-aos-duration="1000"
     >
-      <p className="text-xl text-red-700 font-semibold">{data.title}</p>
+      <p className="text-xl text-[#B2B377] font-semibold">{data.title}</p>
       <p className=" text-xl"> {data.element}</p>
       <div>
         <ImageComp text={data.title} link={iamge} />

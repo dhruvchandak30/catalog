@@ -14,7 +14,7 @@ const IndivElementPage = () => {
   //   const firstItems = Items.slice(0, firstItemsCount);
   return (
     <div>
-      <div className="text-6xl text-red-500 font-bold my-8">{element}</div>
+      <div className="text-6xl text-[#B2B377] font-bold my-8">{element}</div>
       <div className="text-black grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {Items.map((item) => (
           <div key={item.id}>

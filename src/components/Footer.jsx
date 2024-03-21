@@ -5,7 +5,7 @@ import { FaInternetExplorer } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="flex lg:flex-row flex-col lg:text-left justify-around lg:px-10 lg:py-20 py-10 gap-8 text-white bg-[#AB0C0A]">
+    <div className="flex lg:flex-row flex-col lg:text-left justify-around lg:px-10 lg:py-20 py-10 gap-8 text-black bg-[#B2B377]">
       <div className="lg:w-1/4 flex flex-col gap-2">
         <div className="text-3xl">Nirguna Exports</div>
         <div className="text-xl">Owned By</div>

@@ -5,7 +5,7 @@ import IndianMarket from "./IndianMarket";
 import PopularProducts from "./PopularProducts";
 import Element from "./Element";
 import Carding from "../Card";
-import  { useEffect } from "react";
+import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -16,8 +16,8 @@ const Home = () => {
   return (
     <div>
       <Carousel />
-      <ChooseUs />
       <PopularProducts />
+      <ChooseUs />
       <IndianMarket />
       {/* <Carding /> */}
     </div>

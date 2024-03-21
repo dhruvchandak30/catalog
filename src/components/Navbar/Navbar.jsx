@@ -43,7 +43,7 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div className="bg-[#D2D180] ">
       <nav>
         <label htmlFor="check" id="checkbtn" className="-mt-0">
           <FaBars />
@@ -56,36 +56,40 @@ const Navbar = () => {
         />
         <div className="NavbarUl flex lg:flex-row flex-col lg:justify-between items-center lg:mx-8 align-middle md:text-left">
           <label
-            className="text-[#B01C1A] font-bold text-3xl flex pt-3 items-center justify-center cursor-pointer"
+            className="text-slate-800 font-bold hover:text-slate-950 text-3xl flex pt-3 items-center justify-center cursor-pointer"
             onClick={HomeNavigateHandler}
           >
             Nirguna Exports
           </label>
-          <ul className="text-[#B01C1A] flex text-2xl lg:flex-row flex-col items-center align-middle gap-4 py-2 font-semibold ">
+          <ul className="text-slate-800  flex text-2xl lg:flex-row flex-col items-center align-middle gap-4 py-2 font-semibold ">
             <div
-              className="hover-underline-animation hover:text-red-700 cursor-pointer"
+              className="hover-underline-animation hover:text-slate-950 cursor-pointer"
               onClick={HomeNavigateHandler}
             >
               Home
             </div>
             <div
-              className="hover-underline-animation hover:text-red-700 cursor-pointer"
+              className="hover-underline-animation hover:text-slate-950 cursor-pointer"
               onClick={AboutNavigateHandler}
             >
               About
             </div>
             <div
-              className="dropbtn hover-underline-animation hover:text-red-700 cursor-pointer"
+              className="dropbtn hover-underline-animation hover:text-slate-950 cursor-pointer"
               onClick={CategoryNavigateHandler}
             >
               Categories
             </div>
             <div id="myDropdown" className="dropdown-content">
-              <Link to="/categories" className="hover-underline-animation">Type</Link>
-              <Link to="/metals" className="hover-underline-animation">Metals</Link>
+              <Link to="/categories" className="hover-underline-animation hover:text-slate-950">
+                Type
+              </Link>
+              <Link to="/metals" className="hover-underline-animation hover:text-slate-950">
+                Metals
+              </Link>
             </div>
             <div
-              className="hover-underline-animation hover:text-red-700 cursor-pointer"
+              className="hover-underline-animation hover:text-slate-950 cursor-pointer"
               onClick={ContactNavigateHandler}
             >
               Contact

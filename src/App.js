@@ -21,6 +21,7 @@ import IndivElementPage from "./components/Landing/IndivElementPage";
 import Element from "./components/Landing/Element";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Scroll from "./components/Assets/Scroll.jpeg";
 
 function App() {
   const ScrollTopHandler = () => {
@@ -33,7 +34,13 @@ function App() {
     <Router>
       <div className="App" onLoad={ScrollTopHandler}>
         <Navbar />
-        <hr className="bg-black"></hr>
+        <div
+          className="TopToScroll fixed cursor-pointer right-4 bottom-4  z-[1000] rounded-full w-14"
+          onClick={ScrollTopHandler}
+        >
+          <img alt="ScrollTop" src={Scroll} className=" rounded-full"></img>
+        </div>
+        <hr className="bg-slate-500 h-[2px]"></hr>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -52,6 +59,7 @@ function App() {
           <Route path="/element/:element" element={<IndivElementPage />} />
           <Route path="*" element={<Error />} />
         </Routes>
+
         <Footer />
       </div>
     </Router>

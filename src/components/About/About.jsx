@@ -61,10 +61,10 @@ const About = () => {
           ></img>
         </div>
         <div class="flex flex-col text-left   align-middle  ">
-          <div class="text-4xl font-bold text-red-500">
+          <div class="text-4xl font-bold text-[#B2B377]">
             Welcome to Nirguna Exports
           </div>
-          <div class=" text-slate-600 text-[18px] ">
+          <div class=" text-slate-800 text-[18px] ">
             Pisum Food Services Private Limited incorporated in May 2015. Pisum
             Foods is an initiative by the BTW Group (est. 2011), focusing on
             providing food services. With immense experience in the food
@@ -77,48 +77,48 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex lg:flex-row flex-col text-left gap-6 m-8 ">
+      {/* <div className="flex lg:flex-row flex-col text-left gap-6 m-8 ">
         <div>
           <AboutCard data={data[0]} />
         </div>
         <div>
           <AboutCard data={data[1]} />
         </div>
-      </div>
-      <div className="bg-[#b01b18] rounded-[5rem]">
-        <div className="flex flex-col  py-8  justify-center items-center">
+      </div> */}
+      <div className="bg-[#B2B377] rounded-[5rem]">
+        <div className="flex flex-col  py-6  justify-center items-center">
           <div>
             <img
-              className="w-[8rem]"
+              className="w-[6rem]"
               alt="Values"
               src="https://pisumfoods.com/img/icon-img/vision.png"
             ></img>
           </div>
-          <div className="text-white text-4xl font-bold">Values</div>
+          <div className="text-black text-5xl font-bold">Values</div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-6 lg:py-16 py-8 md:justify-center align-middle">
-          <div class="text-center md:text-left">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-6 px-16 py-6  justify-center items-center align-middle">
+          <div class=" ">
             <ValueCard ValData={ValData[0]} />
           </div>
-          <div class="text-center ">
+          <div class=" ">
             <ValueCard ValData={ValData[1]} />
           </div>
-          <div class="text-center ">
+          <div class=" ">
             <ValueCard ValData={ValData[2]} />
           </div>
-          <div class="text-center ">
+          <div class=" ">
             <ValueCard ValData={ValData[3]} />
           </div>
-          <div class="text-center  md:col-span-2">
+          <div class=" ">
             <ValueCard ValData={ValData[4]} />
           </div>
         </div>
       </div>
       <div className="flex flex-col gap-3 lg:px-16 px-8 my-8 ">
-        <div className="text-center text-red-500 text-5xl font-bold">
+        <div className="text-center text-[#B2B377] text-5xl font-bold">
           Who We Are?
         </div>
-        <div className="text-slate-600 text-xl lg:text-left sm:text-center md:text-center ">
+        <div className="text-slate-800 text-xl lg:text-left sm:text-center md:text-center ">
           We are a group of young and enthusiastic individuals who have come
           together for a single goal of being a global leader in food trading.
           We believe that India is known for our spices and food export is key
@@ -128,10 +128,10 @@ const About = () => {
         </div>
       </div>
       <div className="flex flex-col gap-3 lg:px-16 px-8 my-8 ">
-        <div className="text-center text-red-500 text-5xl font-bold">
+        <div className="text-center text-[#B2B377] text-5xl font-bold">
           What We Do?
         </div>
-        <div className="text-slate-600  text-xl lg:text-left sm:text-center md:text-center ">
+        <div className="text-slate-800  text-xl lg:text-left sm:text-center md:text-center ">
           We provide customers with the service of spices export from India. But
           we also understand the demand for Indian food, which is why we also
           offer all kinds of food export from India. From helping you find the

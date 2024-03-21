@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import data from "../data.json";
-import jug from "./jug.jpeg";
+// import jug from "./jug.jpeg";
+import jug from '../Assets/Plate_1.png';
 import "../Navbar/Navbar.css";
 
 const PopularProducts = () => {
@@ -29,7 +30,7 @@ const PopularProducts = () => {
                     className=" w-[10rem] h-[10rem] "
                   />
                 </div>
-                <div className="hover-underline-animation text-red-500 text-2xl font-semibold">
+                <div className="hover-underline-animation text-[#B2B377] text-2xl font-semibold">
                   {category}
                 </div>
               </div>
