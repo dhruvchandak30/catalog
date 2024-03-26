@@ -8,6 +8,7 @@ import Carding from "../Card";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Hero from "./Design/Hero";
 
 const Home = () => {
   useEffect(() => {
@@ -15,11 +16,12 @@ const Home = () => {
   }, []);
   return (
     <div>
-      <Carousel />
-      <PopularProducts />
-      <ChooseUs />
-      <IndianMarket />
+      {/* <Carousel /> */}
+      {/* <PopularProducts /> */}
+      {/* <ChooseUs /> */}
+      {/* <IndianMarket /> */}
       {/* <Carding /> */}
+      <Hero />
     </div>
   );
 };
