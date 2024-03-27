@@ -21,16 +21,16 @@ const Hero = () => {
           </div>
           <div className="">
             <input
-              className=" p-2.5 lg:w-[20rem] text-black  rounded-l-2xl"
+              className="p-2.5 lg:w-[20rem] text-black  rounded-l-2xl"
               type="email"
               placeholder="Gmail"
             ></input>
-            <label className="p-2 text-lg cursor-pointer rounded-r-2xl text-white bg-[#84a98c] hover:bg-[#6f8e76]">
+            <label className="lg:p-2 p-2.5 lg:text-lg cursor-pointer rounded-r-2xl text-white bg-[#84a98c] hover:bg-[#6f8e76]">
               Submit Button
             </label>
           </div>
 
-          <div className="flex flex-row justify-start lg:gap-16 gap-8 ">
+          <div className="flex flex-row justify-start lg:gap-16 gap-4 ">
             <div className="flex flex-col font-bold gap-4">
               <div className="text-5xl">33+</div>
               <div className=" text-xl">Variety</div>

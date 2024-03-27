@@ -9,6 +9,8 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Hero from "./Design/Hero";
+import OutPartners from "./Design/OutPartners";
+import { AboutNirguna } from "./Design/AboutNirguna";
 
 const Home = () => {
   useEffect(() => {
@@ -22,6 +24,8 @@ const Home = () => {
       {/* <IndianMarket /> */}
       {/* <Carding /> */}
       <Hero />
+      <OutPartners />
+      <AboutNirguna />
     </div>
   );
 };
