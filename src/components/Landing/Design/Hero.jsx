@@ -11,8 +11,12 @@ const Hero = () => {
     <div className="lg:h-screen  h-full HeroBg  text-white ">
       <Navbar />
       <div className=" flex lg:flex-row flex-col justify-evenly items-center align-middle my-16 gap-16">
-        <div className="flex flex-col lg:p-4 pl-4 gap-8 text-left    justify-center">
-          <div className=" lg:text-7xl text-4xl font-semibold font-sans">
+        <div data-aos="fade-up"
+             data-aos-duration="2000" className="flex flex-col lg:p-4 pl-4 gap-8 text-left    justify-center">
+          <div
+             
+            className=" lg:text-7xl text-4xl font-semibold font-sans"
+          >
             The Kitchenware<br></br> of Your Dreams
           </div>
           <div className="flex text-lg">
@@ -46,14 +50,16 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex flex-row items-center lg:w-2/5 gap-4">
-          <div className="">
+          <div className=""data-aos="fade-up"
+             data-aos-duration="2000">
             <img
               alt="Kitchen"
               className="img1  rounded-t-full"
               src={img1}
             ></img>
           </div>
-          <div className="">
+          <div className="" data-aos="fade-up"
+             data-aos-duration="2000">
             <img
               alt="Kitchen"
               className=" w-2/3  rounded-full"

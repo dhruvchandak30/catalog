@@ -5,9 +5,9 @@ import { FaInternetExplorer } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="flex lg:flex-row flex-col lg:text-left justify-around lg:px-10 lg:py-20 py-10 gap-8 text-black bg-[#B2B377]">
+    <div className="flex lg:flex-row flex-col lg:text-left justify-around lg:px-10 lg:py-20 py-10 gap-8 text-white bg-[#51766e]">
       <div className="lg:w-1/4 flex flex-col gap-2">
-        <div className="text-3xl">Nirguna Exports</div>
+        <div className="text-4xl font-extrabold font-sans">Nirguna Exports</div>
         <div className="text-xl">Owned By</div>
         <div className="text-l">
           Karshini Artysun Private Limited Plot no. 11, Industrial Area phase 2,
@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="flex flex-row gap-3 items-center justify-center ">
           {/* <Instagram /> */}
           {/* <Facebook /> */}
-          <FaInternetExplorer />
+          {/* <FaInternetExplorer /> */}
         </div>
       </div>
     </div>

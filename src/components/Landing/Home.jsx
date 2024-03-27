@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "./Carousel";
-import ChooseUs from "./ChooseUs";
+import ChooseUs from "./Design/ChooseUs";
 import IndianMarket from "./IndianMarket";
 import PopularProducts from "./PopularProducts";
 import Element from "./Element";
@@ -28,6 +28,7 @@ const Home = () => {
       <OutPartners />
       <AboutNirguna />
       <WhatWeDo />
+      <ChooseUs />
     </div>
   );
 };

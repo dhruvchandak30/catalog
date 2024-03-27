@@ -68,7 +68,7 @@ nav ul {
 .hover-underline-animation1 {
   display: inline-block;
   position: relative;
-  /* color: #b01c1a; */
+  color: white;
   cursor: pointer;
 }
 
@@ -113,6 +113,13 @@ nav ul {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
+/* .FooterBG {
+  background-image: url("../../components/Landing/Design/Assets/kitchen.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; F
+
+} */
 
 .dropdown-content a {
   padding: 12px 16px;
@@ -144,7 +151,7 @@ nav ul {
     left: -100%;
     z-index: 100;
     color: #000;
-    
+
     /* text-align: center; */
     transition: all 0.2s;
   }

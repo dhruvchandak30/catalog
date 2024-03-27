@@ -6,6 +6,10 @@
   border: 1px solid white;
   padding: 0px 10px 10px 10px;
 }
+.ChooseUs{
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+}
 
 .HeroBg {
   background: linear-gradient(to bottom right, #52786f, #040a0cd2);
