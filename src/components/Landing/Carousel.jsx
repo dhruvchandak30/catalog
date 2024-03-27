@@ -2,19 +2,8 @@ import React from "react";
 import "./Carousel.css";
 
 const Carousel = () => {
-  const colors = [
-    "#0088FE",
-    "#00C49F",
-    "#FFBB28",
-    "#0088FE",
-    "#FFBB28",
-    "#0088FE",
-    "#00C49F",
-    "#FFBB28",
-    "#0088FE",
-    "#FFBB28",
-  ];
-  const delay = 2000;
+  const colors = ["#0088FE", "#00C49F", "#FFBB28", "#0088FE", "#FFBB28"];
+  const delay = 1600;
 
   function Slideshow() {
     const [index, setIndex] = React.useState(0);

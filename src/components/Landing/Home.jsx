@@ -11,6 +11,7 @@ import "aos/dist/aos.css";
 import Hero from "./Design/Hero";
 import OutPartners from "./Design/OutPartners";
 import { AboutNirguna } from "./Design/AboutNirguna";
+import WhatWeDo from "./Design/WhatWeDo";
 
 const Home = () => {
   useEffect(() => {
@@ -26,6 +27,7 @@ const Home = () => {
       <Hero />
       <OutPartners />
       <AboutNirguna />
+      <WhatWeDo />
     </div>
   );
 };
