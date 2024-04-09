@@ -22,6 +22,20 @@ import Element from "./components/Landing/Element";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Scroll from "./components/Assets/Scroll.jpeg";
+import { ChakraProvider } from "@chakra-ui/react";
+import {
+  ChakraBaseProvider,
+  extendBaseTheme,
+  theme as chakraTheme,
+} from "@chakra-ui/react";
+
+const { Button } = chakraTheme.components;
+
+const theme = extendBaseTheme({
+  components: {
+    Button,
+  },
+});
 
 function App() {
   const ScrollTopHandler = () => {
@@ -32,36 +46,40 @@ function App() {
   }, []);
   return (
     <Router>
-      <div className="App" onLoad={ScrollTopHandler}>
-        {/* <Navbar /> */}
-        <div
-          className="TopToScroll fixed cursor-pointer right-4 bottom-4  z-[1000] rounded-full w-14"
-          onClick={ScrollTopHandler}
-        >
-          <img alt="ScrollTop" src={Scroll} className=" rounded-full"></img>
+      <ChakraBaseProvider theme={theme}>
+        <div className="App" onLoad={ScrollTopHandler}>
+          <div className="">
+            <Navbar />
+          </div>
+          <div
+            className="TopToScroll fixed cursor-pointer right-4 bottom-4  z-[1000] rounded-full w-14"
+            onClick={ScrollTopHandler}
+          >
+            <img alt="ScrollTop" src={Scroll} className=" rounded-full"></img>
+          </div>
+
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/metals" element={<Element />} />
+            <Route path="/categories" element={<Categories />} />
+            <Route path="/categories/:categoryId" element={<ProductsPage />} />
+            <Route
+              path="/categories/:categoryId/:productId"
+              element={<ItemPage />}
+            />
+            <Route
+              path="/category/:category"
+              element={<IndividualProductPage />}
+            />
+            <Route path="/element/:element" element={<IndivElementPage />} />
+            <Route path="*" element={<Error />} />
+          </Routes>
+
+          <Footer />
         </div>
-
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/metals" element={<Element />} />
-          <Route path="/categories" element={<Categories />} />
-          <Route path="/categories/:categoryId" element={<ProductsPage />} />
-          <Route
-            path="/categories/:categoryId/:productId"
-            element={<ItemPage />}
-          />
-          <Route
-            path="/category/:category"
-            element={<IndividualProductPage />}
-          />
-          <Route path="/element/:element" element={<IndivElementPage />} />
-          <Route path="*" element={<Error />} />
-        </Routes>
-
-        <Footer />
-      </div>
+      </ChakraBaseProvider>
     </Router>
   );
 }
